@@ -21,6 +21,10 @@ requirements:
     - swig
     - sphinxbase
     - pkg-config
+  host:
+    - sphinxbase
+  run:
+    - sphinxbase
 
 test:
   commands:
