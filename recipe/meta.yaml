@@ -11,7 +11,7 @@ source:
 
 build:
   skip: True  # [win or osx]
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -21,6 +21,10 @@ requirements:
     - swig
     - sphinxbase
     - pkg-config
+  host:
+    - sphinxbase
+  run:
+    - sphinxbase
 
 test:
   commands:
