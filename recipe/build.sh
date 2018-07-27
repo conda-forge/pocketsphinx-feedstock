@@ -2,6 +2,6 @@
 
 ./autogen.sh
 ./configure --prefix="$PREFIX"
-make
+make clean all
 make check
 make install
