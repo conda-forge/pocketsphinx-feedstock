@@ -7,4 +7,4 @@ make clean all
 make check
 make install
 
-cp -avf model/*  $PREFIX/share/model
+cp model/*  $PREFIX/share/model
