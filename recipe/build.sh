@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-pushd pocketsphinx-5prealpha
+pushd pocketsphinx
 
 ./autogen.sh
 ./configure --prefix="$PREFIX"
@@ -9,6 +9,6 @@ make check
 make install
 popd
 
-pushd pocketsphinx-5prealpha
-cp -avf pocketsphinx-5prealpha/model/*  $PREFIX/share/model
+pushd pocketsphinx
+cp -avf pocketsphinx/model/*  $PREFIX/share/model
 
