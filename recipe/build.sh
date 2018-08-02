@@ -7,4 +7,3 @@ make check
 make install
 
 cp -afv model/*  $PREFIX/share/model
-
